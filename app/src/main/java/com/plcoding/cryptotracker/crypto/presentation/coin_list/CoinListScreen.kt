@@ -18,6 +18,7 @@ import androidx.compose.ui.unit.dp
 import com.plcoding.cryptotracker.crypto.presentation.coin_list.components.CoinListItem
 import com.plcoding.cryptotracker.crypto.presentation.coin_list.components.previewCoin
 import com.plcoding.cryptotracker.ui.theme.CryptoTrackerTheme
+import kotlinx.coroutines.flow.emptyFlow
 
 @Composable
 fun CoinListScreen(
